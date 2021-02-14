@@ -1,0 +1,13 @@
+@import '/src/styles/variables';
+
+.comments{
+  // background: rgb(112, 128, 144);
+  padding: 15px;
+  h4, p{
+    font-family: $primaryFont;
+  }
+  h4{
+    font-size: 1.25rem;
+  }
+
+}

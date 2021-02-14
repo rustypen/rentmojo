@@ -1,0 +1,14 @@
+@import '/src/styles/variables';
+
+.header{
+  font-family: $primaryFont;
+  color: $primaryColor;
+  background: $primaryBackgroundColor;
+  padding: 15px;
+  font-size: 2rem;
+  font-weight: 500;
+  a{
+    color: $primaryColor;
+    text-decoration: none;
+  }
+}

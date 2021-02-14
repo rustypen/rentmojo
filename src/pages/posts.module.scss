@@ -1,0 +1,50 @@
+@import '/src/styles/variables';
+
+.posts{
+  padding: 15px 0;
+  .item{
+    padding: 15px 0;
+    border-bottom: 1px solid $primaryColor;
+    a{
+      text-decoration: none;
+      color: $primaryColor;
+      display: block;
+      height: 100%;
+      font-weight: 600;
+      font-family: $primaryFont;
+      text-transform: capitalize;
+    }
+  }
+}
+
+
+.controls{
+  .filter{
+    border: 1px solid $primaryColor;
+    background: #fff;
+    width: 100%;
+    font-size: 0.9rem;
+    max-width: 300px;
+    margin: 15px 0;
+    padding: 7px 10px;
+    font-family: $primaryFont;
+    &:active, &:focus{
+      outline: 0px;
+    }
+  }
+  .limitsAndSkips{
+    label{
+      margin: 0 10px 0 0;
+      font-family: $primaryFont;
+      input{
+        margin: 0 0 0 10px;
+        width: 50px;
+        border: 1px solid rgba($color: #000000, $alpha: 1.0);
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
+
+
+

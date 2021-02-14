@@ -1,0 +1,17 @@
+@import '/src/styles/variables';
+
+.post{
+  h2{
+    font-size: 2.5rem;
+    font-family: $primaryFont;
+    text-transform: capitalize;
+  }
+
+  p{
+    font-family: $primaryFont;
+    margin-bottom: 30px;
+    &::first-letter{
+      text-transform: uppercase;
+    }
+  }
+}

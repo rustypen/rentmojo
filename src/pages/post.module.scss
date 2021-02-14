@@ -1,0 +1,22 @@
+@import '/src/styles/variables';
+
+
+.deletePost{
+  border: 2px solid rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 7px 5px;
+  font-size: 1rem;
+  background:rgb(106, 90, 205);
+}
+
+.comments{
+  padding: 15px 0;
+  border-top: 1px solid $primaryColor;
+  button{
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 7px 5px;
+    font-size: 1rem;
+    background:rgb(106, 90, 205);
+  }
+}

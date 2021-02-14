@@ -1,0 +1,8 @@
+@import '/src/styles/variables';
+
+.error{
+  color: #f00;
+  font-family: $primaryFont;
+  font-weight: 700;
+  font-size: 1.5rem;
+}

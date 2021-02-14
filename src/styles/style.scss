@@ -1,0 +1,39 @@
+@import './variables';
+
+@font-face {
+  font-family: "Inter";
+  src: url("/assets/fonts/Inter-Regular.ttf") format("truetype");
+}
+
+:root{
+  font-size: 16px;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+
+.__rentmojo{
+  max-width: $mobile;
+  margin: 0 auto;
+  background: $primaryBackgroundColor;
+  color: $primaryColor;
+
+  @include tablet{
+    max-width: $mobile;
+  }
+
+  @include desktop{
+    max-width: $tablet;
+  }
+}
+
+main{
+  padding: 15px;
+}

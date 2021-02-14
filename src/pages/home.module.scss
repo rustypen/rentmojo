@@ -1,0 +1,38 @@
+@import '/src/styles/variables';
+
+$tableColor: rgba(0, 0, 0, 1);
+
+.home{
+  padding: 15px;
+}
+
+.table{
+  border: 1px solid $tableColor;
+  border-spacing: 0px;
+  width: 100%;
+  td, th{
+    border: 1px solid $tableColor;
+    padding: 5px;
+    border-collapse: collapse;
+    text-align: left;
+    text-transform: capitalize;
+    font-family: $primaryFont;
+  }
+  a{
+    text-decoration: none;
+  }
+}
+
+.filter{
+  border: 1px solid $primaryColor;
+  background: #fff;
+  width: 100%;
+  font-size: 0.9rem;
+  max-width: 300px;
+  margin: 15px 0;
+  padding: 7px 10px;
+  font-family: $primaryFont;
+  &:active, &:focus{
+    outline: 0px;
+  }
+}
